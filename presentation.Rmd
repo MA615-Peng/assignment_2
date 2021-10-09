@@ -1,0 +1,37 @@
+---
+title: "presentation"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("wrangling_code.R", echo=TRUE)
+source("visulization_function.R", echo=TRUE)
+```
+
+##introduction
+
+I chose Armenia and China to compare the urban-rural population ratio between 1999 and 2016 with the proportion of the people using at least basic sanitation facilities.
+
+##visulization
+In this graph, the bar represents the proportion of the rural population in Armenia and China who used at least basic sanitation facilities between 1999 and 2016. The line graph shows the ratio of the rural population in the two countries to the total population.
+We can find that in general, the proportion of people in the rural areas of both countries who use at least basic sanitation facilities is on the rise. But what is interesting is that at the same time, the rural population in Armenia is on the rise as the proportion of the people using at least basic sanitation facilities, while in China, on the contrary, the balance of the rural population is declining. In 2016, the ratio of the rural population of the two countries turned out to be close.
+
+```{r}
+plot1
+
+```
+
+In this graph, the bars represent the proportion of the urban population in Armenia and China that used at least basic sanitation facilities between 1999 and 2016. The line chart shows the ratio of the urban population of the two countries to the total population.
+Overall, we can find that the proportion of people using at least basic sanitation facilities in urban areas in both countries is increasing as in rural areas. Contrary to Figure 1, the urban population in Armenia is decreasing, while the rural population is growing in China.
+```{r}
+plot2
+```
+
+##summary
+
+Whether rural or urban areas, the proportion of urban populations in Armenia and China who have used at least basic sanitation facilities between 1999 and 2016 has continued to rise, and the proportion of urban and rural people has gradually become balanced. The difference between the two countries is that China is migrating from rural to urban areas, while Armenia is the opposite.
+
+
+
+
